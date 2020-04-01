@@ -1,0 +1,7 @@
+C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Domain\bin\Debug\netstandard2.0\Dynasoft.Hermes.Domain.deps.json
+C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Domain\bin\Debug\netstandard2.0\Dynasoft.Hermes.Domain.dll
+C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Domain\bin\Debug\netstandard2.0\Dynasoft.Hermes.Domain.pdb
+C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Domain\obj\Debug\netstandard2.0\Dynasoft.Hermes.Domain.AssemblyInfoInputs.cache
+C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Domain\obj\Debug\netstandard2.0\Dynasoft.Hermes.Domain.AssemblyInfo.cs
+C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Domain\obj\Debug\netstandard2.0\Dynasoft.Hermes.Domain.dll
+C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Domain\obj\Debug\netstandard2.0\Dynasoft.Hermes.Domain.pdb
