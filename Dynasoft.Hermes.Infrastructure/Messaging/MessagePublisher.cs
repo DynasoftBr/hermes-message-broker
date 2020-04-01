@@ -40,13 +40,13 @@ namespace Dynasoft.Hermes.Infrastructure.Messaging
 
         public void Publish(IEnumerable<MessageEnvelop> messages)
         {
-            var exchange = _rabbitSettings.Publishers.ExchangeName;
-            var durableExchange = bool.Parse(_rabbitSettings.Publishers.DurableExchange);
-            var exchangeType = _rabbitSettings.Publishers.ExchangeType;
+            //var exchange = _rabbitSettings.Publishers.ExchangeName;
+            //var durableExchange = bool.Parse(_rabbitSettings.Publishers.DurableExchange);
+            //var exchangeType = _rabbitSettings.Publishers.ExchangeType;
 
             using (var channel = _connection.CreateModel())
             {
-                channel.ExchangeDeclare(exchange, exchangeType, durableExchange);
+                //channel.ExchangeDeclare(exchange, exchangeType, durableExchange);
 
                 foreach (var message in messages)
                 {
@@ -58,6 +58,10 @@ namespace Dynasoft.Hermes.Infrastructure.Messaging
                     });
 
                     var body = Encoding.UTF8.GetBytes(json);
+
+                    var rabbitData = message.RoutingKey.Split('.');
+
+                    var exchange = $"{rabbitData[0]}.{rabbitData[1]}";
 
                     channel.BasicPublish(exchange: exchange,
                         routingKey: message.RoutingKey,
