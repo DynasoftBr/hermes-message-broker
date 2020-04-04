@@ -1,8 +1,0 @@
-C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Models\bin\Debug\netstandard2.0\Dynasoft.Hermes.Models.deps.json
-C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Models\bin\Debug\netstandard2.0\Dynasoft.Hermes.Models.dll
-C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Models\bin\Debug\netstandard2.0\Dynasoft.Hermes.Models.pdb
-C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Models\obj\Debug\netstandard2.0\Dynasoft.Hermes.Models.csprojAssemblyReference.cache
-C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Models\obj\Debug\netstandard2.0\Dynasoft.Hermes.Models.AssemblyInfoInputs.cache
-C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Models\obj\Debug\netstandard2.0\Dynasoft.Hermes.Models.AssemblyInfo.cs
-C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Models\obj\Debug\netstandard2.0\Dynasoft.Hermes.Models.dll
-C:\repos\references\dynasoft\Dynasoft.Hermes\Dynasoft.Hermes.Models\obj\Debug\netstandard2.0\Dynasoft.Hermes.Models.pdb
