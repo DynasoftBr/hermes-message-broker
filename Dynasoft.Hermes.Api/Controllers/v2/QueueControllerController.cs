@@ -1,16 +1,13 @@
 ﻿using System.Threading.Tasks;
-using Dynasoft.Hermes.Api.Application.DTO;
 using Dynasoft.Hermes.Api.Application.Mediator.Commands;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json.Linq;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-namespace Dynasoft.Hermes.Api.Controllers
+namespace Dynasoft.Hermes.Api.Controllers.v2
 {
     [ApiController]
-    [Route("[controller]")]
+    [ApiVersion("2", Deprecated = false)] // futura API depreciada
+    [Route("api/v{version:apiVersion}/queue")]
     public class QueueController : Controller
     {
         private readonly IMediator _mediator;
@@ -20,7 +17,7 @@ namespace Dynasoft.Hermes.Api.Controllers
         }
 
         [HttpPost("sendMessage")]
-        public async Task<IActionResult> SendMessage([FromBody] SendMessageQueueCommand input )
+        public async Task<IActionResult> SendMessage([FromBody] SendMessageQueueCommand input)
         {
             var result = await _mediator.Send(input);
             return Ok(result);
@@ -33,4 +30,4 @@ namespace Dynasoft.Hermes.Api.Controllers
             return Ok(result);
         }
     }
-}   
+}

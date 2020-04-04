@@ -203,9 +203,6 @@
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://repo.ryanair.com:8081/artifactory/api/nuget/cd-nuget-test-repository": {},
-        "http://repo.ryanair.com:8081/artifactory/api/nuget/potential-nuget-release-candidates": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
